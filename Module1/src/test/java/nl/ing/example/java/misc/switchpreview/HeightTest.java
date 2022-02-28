@@ -1,9 +1,9 @@
-package nl.ing.example.java.experiments;
+package nl.ing.example.java.misc.switchpreview;
 
 import org.junit.jupiter.api.Test;
 
-import static nl.ing.example.java.experiments.Height.MeasurementUnit.CM;
-import static nl.ing.example.java.experiments.Height.MeasurementUnit.M;
+import static nl.ing.example.java.misc.switchpreview.Height.MeasurementUnit.CM;
+import static nl.ing.example.java.misc.switchpreview.Height.MeasurementUnit.M;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 

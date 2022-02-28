@@ -1,4 +1,4 @@
-package nl.ing.example.java.experiments;
+package nl.ing.example.java.misc;
 
 record Repo(Branch branch) {
 

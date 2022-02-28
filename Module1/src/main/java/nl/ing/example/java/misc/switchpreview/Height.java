@@ -1,4 +1,4 @@
-package nl.ing.example.java.experiments;
+package nl.ing.example.java.misc.switchpreview;
 
 import static java.util.Objects.hash;
 
@@ -30,6 +30,11 @@ record Height(MeasurementUnit measurementUnit, double value) {
         };
     }
 
+    enum MeasurementUnit {
+        CM,
+        M;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {
@@ -45,10 +50,5 @@ record Height(MeasurementUnit measurementUnit, double value) {
     @Override
     public int hashCode() {
         return hash(measurementUnit, value);
-    }
-
-    enum MeasurementUnit {
-        CM,
-        M;
     }
 }

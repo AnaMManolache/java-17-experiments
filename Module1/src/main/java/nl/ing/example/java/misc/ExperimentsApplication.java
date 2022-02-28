@@ -1,11 +1,10 @@
-package nl.ing.example.java.experiments;
+package nl.ing.example.java.misc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class ExperimentsApplication {
-
 
     public static void main(String[] args) {
         SpringApplication.run(ExperimentsApplication.class, args);

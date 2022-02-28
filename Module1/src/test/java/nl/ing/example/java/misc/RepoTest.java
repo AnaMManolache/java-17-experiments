@@ -1,4 +1,4 @@
-package nl.ing.example.java.experiments;
+package nl.ing.example.java.misc;
 
 import org.junit.jupiter.api.Test;
 
@@ -8,12 +8,12 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class RepoTest {
 
-   // @Test
+    @Test
     void NPEMessagePresent() {
         NullPointerException npe = assertThrows(NullPointerException.class, () -> new Repo(null).branch().author());
 
-        assertThat(npe.getMessage(), containsString("Cannot invoke \"nl.ing.example.java.experiments.model.Repo$Branch.author()\" " +
-                "because the return value of \"nl.ing.example.java.experiments.model.Repo.branch()\" is null"));
+        assertThat(npe.getMessage(), containsString("Cannot invoke \"nl.ing.example.java.misc.Repo$Branch.author()\" " +
+                "because the return value of \"nl.ing.example.java.misc.Repo.branch()\" is null"));
     }
 
 }

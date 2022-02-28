@@ -1,4 +1,4 @@
-package nl.ing.example.java.experiments;
+package nl.ing.example.java.misc.time;
 
 import org.springframework.stereotype.Component;
 
